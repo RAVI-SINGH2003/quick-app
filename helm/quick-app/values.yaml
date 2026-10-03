@@ -1,11 +1,11 @@
 frontend:
   image:
     repository: meravisingh/frontend
-    tag: v1
+    tag: 74e3f30
     pullPolicy: IfNotPresent
 
 backend:
   image:
     repository: meravisingh/backend
-    tag: v1
+    tag: 74e3f30
     pullPolicy: IfNotPresent
