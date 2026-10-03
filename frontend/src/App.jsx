@@ -15,7 +15,7 @@ function App() {
 
   return (
     <section id="center">
-      <h1>Ravi's Backend says:</h1>
+      <h1>This is my project and here is the response from backend</h1>
       <p>{message}</p>
     </section>
   )

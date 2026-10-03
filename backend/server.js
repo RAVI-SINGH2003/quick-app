@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5001;
 app.use(cors());
 
 app.get('/api/message', (req, res) => {
-  res.json({ message: 'Hello from the Ravi backend!' });
+  res.json({ message: 'Response from backend' });
 });
 
 app.listen(PORT, () => {
